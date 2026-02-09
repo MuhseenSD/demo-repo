@@ -1,0 +1,56 @@
+
+#cal{
+    background-color: rgb(36, 21, 1);
+    width: 25rem;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin: 1px;
+    margin-top: 1rem;
+    padding: 0.5rem;    
+}
+
+.button:hover{
+    background-color: rgb(211, 75, 26);
+}
+
+.button{
+    padding: 2rem;
+    background-color: coral;
+    font-size: large;
+    color: rgb(214, 214, 209);
+    border-radius: 6px rgb(214, 214, 209);
+    border: 2px solid ;
+}
+
+#display{
+    background-color: rgb(214, 214, 209);
+    height: 5rem;
+    margin: 6px 6px;
+    border-radius: 6px;
+    color: black;
+    font-size: x-large;    
+}
+
+input[type=text]{
+    width: 23.5rem;
+    padding: 0;
+    font-size: large;
+    color: coral;
+}
+
+#cancel{
+    background-color: red;
+}
+
+#trade-mark{
+    color: coral;
+    padding: 5px;
+}
